@@ -7,21 +7,93 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26B392346D948353F606B815 /* Pods_erPlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D387465499639964B5AD77C /* Pods_erPlay.framework */; };
 		4A1FD3131D39FD6100EB4B5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1FD3121D39FD6100EB4B5E /* AppDelegate.swift */; };
-		4A1FD3151D39FD6100EB4B5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1FD3141D39FD6100EB4B5E /* ViewController.swift */; };
 		4A1FD3181D39FD6100EB4B5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A1FD3161D39FD6100EB4B5E /* Main.storyboard */; };
 		4A1FD31A1D39FD6100EB4B5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A1FD3191D39FD6100EB4B5E /* Assets.xcassets */; };
 		4A1FD31D1D39FD6100EB4B5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A1FD31B1D39FD6100EB4B5E /* LaunchScreen.storyboard */; };
+		4A1FD3301D39FDE400EB4B5E /* ExtensionUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1FD3291D39FDE400EB4B5E /* ExtensionUIColor.swift */; };
+		4A1FD3501D39FFB000EB4B5E /* DWTaaskyContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1FD3401D39FFB000EB4B5E /* DWTaaskyContainerViewController.swift */; };
+		4A3402D31D539CE100CAB317 /* DWERVedioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3402D21D539CE100CAB317 /* DWERVedioController.swift */; };
+		4A36D6CE1D5240E9009B5EC6 /* DWTapGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A36D6CD1D5240E9009B5EC6 /* DWTapGestureRecognizer.swift */; };
+		4A410C531D4881BB00BAC30F /* DWDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A410C521D4881BB00BAC30F /* DWDetailViewController.swift */; };
+		4A410C5B1D488A7900BAC30F /* DWHamburgerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A410C5A1D488A7900BAC30F /* DWHamburgerView.swift */; };
+		4A7186231D4B4B3500694068 /* DWHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A71861C1D4B4B3500694068 /* DWHistoryViewController.swift */; };
+		4A7186251D4B4B3500694068 /* HistoryAccesser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A71861F1D4B4B3500694068 /* HistoryAccesser.swift */; };
+		4A7186261D4B4B3500694068 /* DWHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7186211D4B4B3500694068 /* DWHistoryCell.swift */; };
+		4A7186271D4B4B3500694068 /* DWHistoryThumbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7186221D4B4B3500694068 /* DWHistoryThumbView.swift */; };
+		4A7186291D4B530B00694068 /* URL+Thumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7186281D4B530B00694068 /* URL+Thumbnail.swift */; };
+		4A71862B1D4B832300694068 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A71862A1D4B832300694068 /* Global.swift */; };
+		4A71862D1D4BBEC000694068 /* UIColor+erPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A71862C1D4BBEC000694068 /* UIColor+erPlay.swift */; };
+		4A71863E1D4BBECE00694068 /* DWSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7186301D4BBECE00694068 /* DWSettingViewController.swift */; };
+		4A71863F1D4BBECE00694068 /* defaultSetting.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4A7186321D4BBECE00694068 /* defaultSetting.plist */; };
+		4A7186411D4BBECE00694068 /* gestureSetting.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4A7186341D4BBECE00694068 /* gestureSetting.plist */; };
+		4A7186421D4BBECE00694068 /* SettingAccesser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7186351D4BBECE00694068 /* SettingAccesser.swift */; };
+		4A7186441D4BBECE00694068 /* DWBorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7186381D4BBECE00694068 /* DWBorderButton.swift */; };
+		4A7186451D4BBECE00694068 /* DWCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7186391D4BBECE00694068 /* DWCheckBox.swift */; };
+		4A7186461D4BBECE00694068 /* DWGestureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A71863A1D4BBECE00694068 /* DWGestureCell.swift */; };
+		4A7186471D4BBECE00694068 /* DWHistoryLeastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A71863B1D4BBECE00694068 /* DWHistoryLeastCell.swift */; };
+		4A7186481D4BBECE00694068 /* DWHistoryLimitCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A71863C1D4BBECE00694068 /* DWHistoryLimitCell.swift */; };
+		4A7186491D4BBECE00694068 /* DWThemeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A71863D1D4BBECE00694068 /* DWThemeCell.swift */; };
+		4A84E6CE1D4CC43600CD392A /* DWKeynoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A84E6CD1D4CC43600CD392A /* DWKeynoteView.swift */; };
+		4A9BD8741D4F86AF00CCDFFC /* DWVedioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9BD8701D4F86AF00CCDFFC /* DWVedioController.swift */; };
+		4A9BD8751D4F86AF00CCDFFC /* DWVedioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9BD8731D4F86AF00CCDFFC /* DWVedioButton.swift */; };
+		4AADAB3F1D4C7B81005B983A /* DWVedioInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AADAB3E1D4C7B81005B983A /* DWVedioInfoViewController.swift */; };
+		4AB522B21D4375FC00520622 /* DWScrollLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB522B11D4375FC00520622 /* DWScrollLabel.swift */; };
+		4AF46AB91D4A0259007EAAE9 /* DWScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF46AB81D4A0259007EAAE9 /* DWScrollView.swift */; };
+		4AFD01D01D3B686400ED70CA /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFD01CF1D3B686400ED70CA /* Utilities.swift */; };
+		4AFD02031D3BCA4100ED70CA /* DWTaaskyMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFD01FB1D3BCA4100ED70CA /* DWTaaskyMasterViewController.swift */; };
+		4AFD02041D3BCA4100ED70CA /* ColorsMap.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4AFD01FD1D3BCA4100ED70CA /* ColorsMap.plist */; };
+		4AFD02051D3BCA4100ED70CA /* MenuItems.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4AFD01FE1D3BCA4100ED70CA /* MenuItems.plist */; };
+		4AFD02061D3BCA4100ED70CA /* DWTaaskyMasterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFD02001D3BCA4100ED70CA /* DWTaaskyMasterCell.swift */; };
+		4AFD02091D3BD49D00ED70CA /* DWMasterTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFD02081D3BD49D00ED70CA /* DWMasterTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4A1FD30F1D39FD6000EB4B5E /* erPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = erPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A1FD3121D39FD6100EB4B5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4A1FD3141D39FD6100EB4B5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4A1FD3171D39FD6100EB4B5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4A1FD3191D39FD6100EB4B5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A1FD31C1D39FD6100EB4B5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A1FD31E1D39FD6100EB4B5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A1FD3291D39FDE400EB4B5E /* ExtensionUIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExtensionUIColor.swift; path = ../ExtensionUIColor.swift; sourceTree = "<group>"; };
+		4A1FD3401D39FFB000EB4B5E /* DWTaaskyContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWTaaskyContainerViewController.swift; sourceTree = "<group>"; };
+		4A3402D21D539CE100CAB317 /* DWERVedioController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWERVedioController.swift; sourceTree = "<group>"; };
+		4A36D6CD1D5240E9009B5EC6 /* DWTapGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWTapGestureRecognizer.swift; sourceTree = "<group>"; };
+		4A410C521D4881BB00BAC30F /* DWDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWDetailViewController.swift; sourceTree = "<group>"; };
+		4A410C5A1D488A7900BAC30F /* DWHamburgerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWHamburgerView.swift; sourceTree = "<group>"; };
+		4A71861C1D4B4B3500694068 /* DWHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWHistoryViewController.swift; sourceTree = "<group>"; };
+		4A71861F1D4B4B3500694068 /* HistoryAccesser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryAccesser.swift; sourceTree = "<group>"; };
+		4A7186211D4B4B3500694068 /* DWHistoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWHistoryCell.swift; sourceTree = "<group>"; };
+		4A7186221D4B4B3500694068 /* DWHistoryThumbView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWHistoryThumbView.swift; sourceTree = "<group>"; };
+		4A7186281D4B530B00694068 /* URL+Thumbnail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+Thumbnail.swift"; sourceTree = "<group>"; };
+		4A71862A1D4B832300694068 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		4A71862C1D4BBEC000694068 /* UIColor+erPlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+erPlay.swift"; sourceTree = "<group>"; };
+		4A7186301D4BBECE00694068 /* DWSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWSettingViewController.swift; sourceTree = "<group>"; };
+		4A7186321D4BBECE00694068 /* defaultSetting.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = defaultSetting.plist; sourceTree = "<group>"; };
+		4A7186341D4BBECE00694068 /* gestureSetting.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = gestureSetting.plist; sourceTree = "<group>"; };
+		4A7186351D4BBECE00694068 /* SettingAccesser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingAccesser.swift; sourceTree = "<group>"; };
+		4A7186381D4BBECE00694068 /* DWBorderButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWBorderButton.swift; sourceTree = "<group>"; };
+		4A7186391D4BBECE00694068 /* DWCheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWCheckBox.swift; sourceTree = "<group>"; };
+		4A71863A1D4BBECE00694068 /* DWGestureCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWGestureCell.swift; sourceTree = "<group>"; };
+		4A71863B1D4BBECE00694068 /* DWHistoryLeastCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWHistoryLeastCell.swift; sourceTree = "<group>"; };
+		4A71863C1D4BBECE00694068 /* DWHistoryLimitCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWHistoryLimitCell.swift; sourceTree = "<group>"; };
+		4A71863D1D4BBECE00694068 /* DWThemeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWThemeCell.swift; sourceTree = "<group>"; };
+		4A84E6CD1D4CC43600CD392A /* DWKeynoteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWKeynoteView.swift; sourceTree = "<group>"; };
+		4A9BD8701D4F86AF00CCDFFC /* DWVedioController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWVedioController.swift; sourceTree = "<group>"; };
+		4A9BD8731D4F86AF00CCDFFC /* DWVedioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWVedioButton.swift; sourceTree = "<group>"; };
+		4AADAB3E1D4C7B81005B983A /* DWVedioInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWVedioInfoViewController.swift; sourceTree = "<group>"; };
+		4AB522B11D4375FC00520622 /* DWScrollLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWScrollLabel.swift; sourceTree = "<group>"; };
+		4AF46AB81D4A0259007EAAE9 /* DWScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWScrollView.swift; sourceTree = "<group>"; };
+		4AFD01CF1D3B686400ED70CA /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		4AFD01FB1D3BCA4100ED70CA /* DWTaaskyMasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWTaaskyMasterViewController.swift; sourceTree = "<group>"; };
+		4AFD01FD1D3BCA4100ED70CA /* ColorsMap.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ColorsMap.plist; sourceTree = "<group>"; };
+		4AFD01FE1D3BCA4100ED70CA /* MenuItems.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MenuItems.plist; sourceTree = "<group>"; };
+		4AFD02001D3BCA4100ED70CA /* DWTaaskyMasterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWTaaskyMasterCell.swift; sourceTree = "<group>"; };
+		4AFD02081D3BD49D00ED70CA /* DWMasterTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWMasterTransition.swift; sourceTree = "<group>"; };
+		6D387465499639964B5AD77C /* Pods_erPlay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_erPlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F3A370651692F08BE48E38E /* Pods-erPlay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-erPlay.release.xcconfig"; path = "Pods/Target Support Files/Pods-erPlay/Pods-erPlay.release.xcconfig"; sourceTree = "<group>"; };
+		FC48BB6C4DB9BC869C7DE204 /* Pods-erPlay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-erPlay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-erPlay/Pods-erPlay.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +101,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26B392346D948353F606B815 /* Pods_erPlay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B39F0780094B6EEA2732E30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D387465499639964B5AD77C /* Pods_erPlay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4A1FD3061D39FD6000EB4B5E = {
 			isa = PBXGroup;
 			children = (
 				4A1FD3111D39FD6000EB4B5E /* erPlay */,
 				4A1FD3101D39FD6000EB4B5E /* Products */,
+				D9B3A0985A9F5620BB983547 /* Pods */,
+				1B39F0780094B6EEA2732E30 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +138,296 @@
 			isa = PBXGroup;
 			children = (
 				4A1FD3121D39FD6100EB4B5E /* AppDelegate.swift */,
-				4A1FD3141D39FD6100EB4B5E /* ViewController.swift */,
 				4A1FD3161D39FD6100EB4B5E /* Main.storyboard */,
+				4A410C521D4881BB00BAC30F /* DWDetailViewController.swift */,
 				4A1FD3191D39FD6100EB4B5E /* Assets.xcassets */,
+				4AADAB3A1D4C7B5A005B983A /* VedioInfo */,
+				4A71862E1D4BBECE00694068 /* Setting */,
+				4A9BD86E1D4F86AF00CCDFFC /* Vedio */,
+				4A71861A1D4B4B3500694068 /* History */,
+				4A1FD33E1D39FFB000EB4B5E /* Container */,
+				4AFD01F71D3BCA4100ED70CA /* Master */,
+				4A410C561D488A5800BAC30F /* Detail */,
+				4AFD02071D3BD47500ED70CA /* Others */,
+				4AFD01CE1D3B686400ED70CA /* Utilities */,
 				4A1FD31B1D39FD6100EB4B5E /* LaunchScreen.storyboard */,
 				4A1FD31E1D39FD6100EB4B5E /* Info.plist */,
 			);
 			path = erPlay;
+			sourceTree = "<group>";
+		};
+		4A1FD33E1D39FFB000EB4B5E /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				4A1FD33F1D39FFB000EB4B5E /* Controller */,
+				4A1FD3411D39FFB000EB4B5E /* Model */,
+				4A1FD3421D39FFB000EB4B5E /* View */,
+			);
+			path = Container;
+			sourceTree = "<group>";
+		};
+		4A1FD33F1D39FFB000EB4B5E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4A1FD3401D39FFB000EB4B5E /* DWTaaskyContainerViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4A1FD3411D39FFB000EB4B5E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4A1FD3421D39FFB000EB4B5E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4AF46AB81D4A0259007EAAE9 /* DWScrollView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4A410C561D488A5800BAC30F /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				4A410C571D488A5800BAC30F /* Controller */,
+				4A410C581D488A5800BAC30F /* Model */,
+				4A410C591D488A5800BAC30F /* View */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		4A410C571D488A5800BAC30F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4A410C581D488A5800BAC30F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4A410C591D488A5800BAC30F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4A410C5A1D488A7900BAC30F /* DWHamburgerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4A71861A1D4B4B3500694068 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				4A71861B1D4B4B3500694068 /* Controller */,
+				4A71861D1D4B4B3500694068 /* Model */,
+				4A7186201D4B4B3500694068 /* View */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		4A71861B1D4B4B3500694068 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4A71861C1D4B4B3500694068 /* DWHistoryViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4A71861D1D4B4B3500694068 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4A71861F1D4B4B3500694068 /* HistoryAccesser.swift */,
+				4A36D6CD1D5240E9009B5EC6 /* DWTapGestureRecognizer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4A7186201D4B4B3500694068 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4A7186211D4B4B3500694068 /* DWHistoryCell.swift */,
+				4A7186221D4B4B3500694068 /* DWHistoryThumbView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4A71862E1D4BBECE00694068 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				4A71862F1D4BBECE00694068 /* Controller */,
+				4A7186311D4BBECE00694068 /* Model */,
+				4A7186371D4BBECE00694068 /* View */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		4A71862F1D4BBECE00694068 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4A7186301D4BBECE00694068 /* DWSettingViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4A7186311D4BBECE00694068 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4A7186321D4BBECE00694068 /* defaultSetting.plist */,
+				4A7186341D4BBECE00694068 /* gestureSetting.plist */,
+				4A7186351D4BBECE00694068 /* SettingAccesser.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4A7186371D4BBECE00694068 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4A7186381D4BBECE00694068 /* DWBorderButton.swift */,
+				4A7186391D4BBECE00694068 /* DWCheckBox.swift */,
+				4A71863A1D4BBECE00694068 /* DWGestureCell.swift */,
+				4A71863B1D4BBECE00694068 /* DWHistoryLeastCell.swift */,
+				4A71863C1D4BBECE00694068 /* DWHistoryLimitCell.swift */,
+				4A71863D1D4BBECE00694068 /* DWThemeCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4A9BD86E1D4F86AF00CCDFFC /* Vedio */ = {
+			isa = PBXGroup;
+			children = (
+				4A9BD86F1D4F86AF00CCDFFC /* Controller */,
+				4A9BD8711D4F86AF00CCDFFC /* Model */,
+				4A9BD8721D4F86AF00CCDFFC /* View */,
+			);
+			path = Vedio;
+			sourceTree = "<group>";
+		};
+		4A9BD86F1D4F86AF00CCDFFC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4A9BD8701D4F86AF00CCDFFC /* DWVedioController.swift */,
+				4A3402D21D539CE100CAB317 /* DWERVedioController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4A9BD8711D4F86AF00CCDFFC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4A9BD8721D4F86AF00CCDFFC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4A9BD8731D4F86AF00CCDFFC /* DWVedioButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4AADAB3A1D4C7B5A005B983A /* VedioInfo */ = {
+			isa = PBXGroup;
+			children = (
+				4AADAB3B1D4C7B5A005B983A /* Controller */,
+				4AADAB3C1D4C7B5A005B983A /* Model */,
+				4AADAB3D1D4C7B5A005B983A /* View */,
+			);
+			path = VedioInfo;
+			sourceTree = "<group>";
+		};
+		4AADAB3B1D4C7B5A005B983A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4AADAB3E1D4C7B81005B983A /* DWVedioInfoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4AADAB3C1D4C7B5A005B983A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4AADAB3D1D4C7B5A005B983A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4A84E6CD1D4CC43600CD392A /* DWKeynoteView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4AFD01CE1D3B686400ED70CA /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4A1FD3291D39FDE400EB4B5E /* ExtensionUIColor.swift */,
+				4AFD01CF1D3B686400ED70CA /* Utilities.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		4AFD01F71D3BCA4100ED70CA /* Master */ = {
+			isa = PBXGroup;
+			children = (
+				4AFD01F81D3BCA4100ED70CA /* Controller */,
+				4AFD01FC1D3BCA4100ED70CA /* Model */,
+				4AFD01FF1D3BCA4100ED70CA /* View */,
+			);
+			path = Master;
+			sourceTree = "<group>";
+		};
+		4AFD01F81D3BCA4100ED70CA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4AFD01FB1D3BCA4100ED70CA /* DWTaaskyMasterViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4AFD01FC1D3BCA4100ED70CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4AFD01FD1D3BCA4100ED70CA /* ColorsMap.plist */,
+				4AFD01FE1D3BCA4100ED70CA /* MenuItems.plist */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4AFD01FF1D3BCA4100ED70CA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4AFD02001D3BCA4100ED70CA /* DWTaaskyMasterCell.swift */,
+				4AB522B11D4375FC00520622 /* DWScrollLabel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4AFD02071D3BD47500ED70CA /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				4AFD02081D3BD49D00ED70CA /* DWMasterTransition.swift */,
+				4A7186281D4B530B00694068 /* URL+Thumbnail.swift */,
+				4A71862C1D4BBEC000694068 /* UIColor+erPlay.swift */,
+				4A71862A1D4B832300694068 /* Global.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		D9B3A0985A9F5620BB983547 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC48BB6C4DB9BC869C7DE204 /* Pods-erPlay.debug.xcconfig */,
+				7F3A370651692F08BE48E38E /* Pods-erPlay.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +437,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A1FD3211D39FD6100EB4B5E /* Build configuration list for PBXNativeTarget "erPlay" */;
 			buildPhases = (
+				48A6FE32C091D8635BC8F12F /* [CP] Check Pods Manifest.lock */,
 				4A1FD30B1D39FD6000EB4B5E /* Sources */,
 				4A1FD30C1D39FD6000EB4B5E /* Frameworks */,
 				4A1FD30D1D39FD6000EB4B5E /* Resources */,
+				335C7292898E5C305C5812D4 /* [CP] Embed Pods Frameworks */,
+				93C20870C5976668D26B18A1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +493,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A1FD31D1D39FD6100EB4B5E /* LaunchScreen.storyboard in Resources */,
+				4AFD02041D3BCA4100ED70CA /* ColorsMap.plist in Resources */,
+				4A7186411D4BBECE00694068 /* gestureSetting.plist in Resources */,
+				4AFD02051D3BCA4100ED70CA /* MenuItems.plist in Resources */,
+				4A71863F1D4BBECE00694068 /* defaultSetting.plist in Resources */,
 				4A1FD31A1D39FD6100EB4B5E /* Assets.xcassets in Resources */,
 				4A1FD3181D39FD6100EB4B5E /* Main.storyboard in Resources */,
 			);
@@ -131,13 +504,91 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		335C7292898E5C305C5812D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-erPlay/Pods-erPlay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48A6FE32C091D8635BC8F12F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		93C20870C5976668D26B18A1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-erPlay/Pods-erPlay-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4A1FD30B1D39FD6000EB4B5E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A1FD3151D39FD6100EB4B5E /* ViewController.swift in Sources */,
+				4A9BD8741D4F86AF00CCDFFC /* DWVedioController.swift in Sources */,
+				4A3402D31D539CE100CAB317 /* DWERVedioController.swift in Sources */,
+				4A410C5B1D488A7900BAC30F /* DWHamburgerView.swift in Sources */,
 				4A1FD3131D39FD6100EB4B5E /* AppDelegate.swift in Sources */,
+				4A7186291D4B530B00694068 /* URL+Thumbnail.swift in Sources */,
+				4AFD02091D3BD49D00ED70CA /* DWMasterTransition.swift in Sources */,
+				4A7186461D4BBECE00694068 /* DWGestureCell.swift in Sources */,
+				4A7186471D4BBECE00694068 /* DWHistoryLeastCell.swift in Sources */,
+				4A7186231D4B4B3500694068 /* DWHistoryViewController.swift in Sources */,
+				4A7186271D4B4B3500694068 /* DWHistoryThumbView.swift in Sources */,
+				4A71862D1D4BBEC000694068 /* UIColor+erPlay.swift in Sources */,
+				4A7186421D4BBECE00694068 /* SettingAccesser.swift in Sources */,
+				4AFD02031D3BCA4100ED70CA /* DWTaaskyMasterViewController.swift in Sources */,
+				4A7186261D4B4B3500694068 /* DWHistoryCell.swift in Sources */,
+				4A7186441D4BBECE00694068 /* DWBorderButton.swift in Sources */,
+				4A36D6CE1D5240E9009B5EC6 /* DWTapGestureRecognizer.swift in Sources */,
+				4A7186451D4BBECE00694068 /* DWCheckBox.swift in Sources */,
+				4A71863E1D4BBECE00694068 /* DWSettingViewController.swift in Sources */,
+				4AF46AB91D4A0259007EAAE9 /* DWScrollView.swift in Sources */,
+				4A7186251D4B4B3500694068 /* HistoryAccesser.swift in Sources */,
+				4A1FD3501D39FFB000EB4B5E /* DWTaaskyContainerViewController.swift in Sources */,
+				4A1FD3301D39FDE400EB4B5E /* ExtensionUIColor.swift in Sources */,
+				4A7186481D4BBECE00694068 /* DWHistoryLimitCell.swift in Sources */,
+				4A9BD8751D4F86AF00CCDFFC /* DWVedioButton.swift in Sources */,
+				4A410C531D4881BB00BAC30F /* DWDetailViewController.swift in Sources */,
+				4A84E6CE1D4CC43600CD392A /* DWKeynoteView.swift in Sources */,
+				4A71862B1D4B832300694068 /* Global.swift in Sources */,
+				4AFD02061D3BCA4100ED70CA /* DWTaaskyMasterCell.swift in Sources */,
+				4AADAB3F1D4C7B81005B983A /* DWVedioInfoViewController.swift in Sources */,
+				4AFD01D01D3B686400ED70CA /* Utilities.swift in Sources */,
+				4A7186491D4BBECE00694068 /* DWThemeCell.swift in Sources */,
+				4AB522B21D4375FC00520622 /* DWScrollLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,23 +701,33 @@
 		};
 		4A1FD3221D39FD6100EB4B5E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC48BB6C4DB9BC869C7DE204 /* Pods-erPlay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				DEFINES_MODULE = NO;
 				INFOPLIST_FILE = erPlay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Darwin.erPlay;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mangonob;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
 		4A1FD3231D39FD6100EB4B5E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F3A370651692F08BE48E38E /* Pods-erPlay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				DEFINES_MODULE = NO;
 				INFOPLIST_FILE = erPlay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Darwin.erPlay;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mangonob;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};
@@ -289,6 +750,7 @@
 				4A1FD3231D39FD6100EB4B5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

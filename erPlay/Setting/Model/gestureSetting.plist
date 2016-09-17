@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>images</key>
+	<array>
+		<string>longPress</string>
+		<string>doubleTap</string>
+		<string>doubleRight</string>
+		<string>doubleLeft</string>
+	</array>
+	<key>texts</key>
+	<array>
+		<string>Long press to lock</string>
+		<string>Double tap to stop/play</string>
+		<string>Two fingers swipe right to next item</string>
+		<string>Two fingers swipe left to prev item</string>
+	</array>
+</dict>
+</plist>

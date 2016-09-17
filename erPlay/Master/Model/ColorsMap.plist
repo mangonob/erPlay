@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>floder</key>
+	<dict>
+		<key>r</key>
+		<integer>253</integer>
+		<key>g</key>
+		<integer>151</integer>
+		<key>b</key>
+		<integer>39</integer>
+	</dict>
+	<key>setting</key>
+	<dict>
+		<key>r</key>
+		<integer>171</integer>
+		<key>g</key>
+		<integer>180</integer>
+		<key>b</key>
+		<integer>189</integer>
+	</dict>
+	<key>return</key>
+	<dict>
+		<key>r</key>
+		<integer>0</integer>
+		<key>g</key>
+		<integer>0</integer>
+		<key>b</key>
+		<integer>0</integer>
+	</dict>
+	<key>warning</key>
+	<dict>
+		<key>r</key>
+		<integer>254</integer>
+		<key>g</key>
+		<integer>233</integer>
+		<key>b</key>
+		<integer>78</integer>
+	</dict>
+	<key>history</key>
+	<dict>
+		<key>r</key>
+		<integer>72</integer>
+		<key>g</key>
+		<integer>174</integer>
+		<key>b</key>
+		<integer>226</integer>
+	</dict>
+</dict>
+</plist>
